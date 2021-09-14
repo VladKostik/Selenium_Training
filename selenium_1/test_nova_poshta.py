@@ -43,3 +43,5 @@ def test_nova_poshta():
         browser.find_element_by_xpath(warehouse_42_locator)
     actions.move_to_element(warehouse_42_element).perform()
     warehouse_42_element.click()
+
+    browser.quit()
